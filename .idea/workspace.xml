@@ -4,14 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Dependencies Added">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configs/dev-config.properties" afterDir="false" />
+    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Configs Added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/BaseSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/AccountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/PlansTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/UserProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/SeleniumUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/dev-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/oneTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/runningTestMethods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/dev-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/qa-config.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,17 +50,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.validateTopLeftCornerLogo.executor": "Run",
+    "TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HomePageTest">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.validateTopLeftCornerLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
+      <option name="METHOD_NAME" value="validateTopLeftCornerLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.validateTopLeftCornerPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
+      <option name="METHOD_NAME" value="validateTopLeftCornerPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.validateTopLeftCornerPageTitle" />
+        <item itemvalue="TestNG.HomePageTest.validateTopLeftCornerLogo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,11 +155,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724273365769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configs Added">
+      <option name="closed" value="true" />
+      <created>1724274032833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724274032833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependencies Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies Added" />
+    <MESSAGE value="Configs Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configs Added" />
   </component>
 </project>
