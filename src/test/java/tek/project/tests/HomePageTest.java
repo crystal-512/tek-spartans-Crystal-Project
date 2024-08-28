@@ -13,9 +13,13 @@ public class HomePageTest extends UIBaseClass {
     }
 
     @Test
-    public void validateTopLeftCornerPageTitle() {
+    public void validateHomePageTitleAndCreateAccount() {
         validateTitle();
+        boolean isEnabled = isElementEnabled(homePage.createPrimaryAccountButton);
+        Assert.assertTrue(isEnabled, "Create Primary Account button should be enabled");
+
     }
+
 
 
 }

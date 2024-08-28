@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Configs Added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/BaseSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/AccountsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/PlansTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/UserProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/SeleniumUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/dev-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/oneTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/runningTestMethods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runners/testing.xml" afterDir="false" />
+    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="tests and pages added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/dev-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/qa-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +40,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CreateAccountTest.createNewAccountTestPositive.executor": "Run",
     "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.validateCreateAccountButton.executor": "Run",
+    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor": "Run",
     "TestNG.HomePageTest.validateTopLeftCornerLogo.executor": "Run",
     "TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor": "Run",
     "git-widget-placeholder": "master",
@@ -69,7 +58,25 @@
       <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest">
+  <component name="RunManager" selected="TestNG.CreateAccountTest.createNewAccountTestPositive">
+    <configuration name="CreateAccountTest.createNewAccountTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
+      <option name="METHOD_NAME" value="createNewAccountTestPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
@@ -87,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.validateTopLeftCornerLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.validateCreateAccountButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +104,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="tek.project.tests" />
       <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
-      <option name="METHOD_NAME" value="validateTopLeftCornerLogo" />
+      <option name="METHOD_NAME" value="validateCreateAccountButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.validateHomePageTitleAndCreateAccountButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
+      <option name="METHOD_NAME" value="validateHomePageTitleAndCreateAccountButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAccountTest.createNewAccountTestPositive" />
+        <item itemvalue="TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton" />
+        <item itemvalue="TestNG.HomePageTest.validateCreateAccountButton" />
         <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.HomePageTest.validateTopLeftCornerPageTitle" />
-        <item itemvalue="TestNG.HomePageTest.validateTopLeftCornerLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724274032833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests and pages added">
+      <option name="closed" value="true" />
+      <created>1724853416144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724853416145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependencies Added" />
     <MESSAGE value="Configs Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configs Added" />
+    <MESSAGE value="tests and pages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests and pages added" />
   </component>
 </project>

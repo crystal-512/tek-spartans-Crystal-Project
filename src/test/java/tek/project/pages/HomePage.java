@@ -14,5 +14,6 @@ public class HomePage extends SeleniumUtility {
     @FindBy( xpath = "//h2[text()='TEK Insurance App']")
     public WebElement topLeftPageTitle;
 
-    @Find
+    @FindBy( linkText = "Create Primary Account")
+    public WebElement createPrimaryAccountButton;
 }
