@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import tek.project.pages.HomePage;
+import tek.project.pages.CreatePrimaryAccountHolderPage;
 import tek.project.pages.SignUpPage;
 import tek.project.utility.SeleniumUtility;
 
@@ -13,6 +14,7 @@ public class UIBaseClass extends SeleniumUtility {
     private static final Logger LOGGER = LogManager.getLogger(UIBaseClass.class);
 
     public HomePage homePage;
+    public CreatePrimaryAccountHolderPage createPrimaryAccountHolderPage;
     public SignUpPage signUpPage;
 
 
@@ -21,6 +23,7 @@ public class UIBaseClass extends SeleniumUtility {
         LOGGER.info("Setup Test and opening browser");
         setupBrowser();
         homePage = new HomePage();
+        createPrimaryAccountHolderPage = new CreatePrimaryAccountHolderPage();
         signUpPage = new SignUpPage();
 
     }
@@ -28,6 +31,7 @@ public class UIBaseClass extends SeleniumUtility {
     @AfterMethod
     public void testCleanup() {
         LOGGER.info("running after each test and quite browser");
-        quitBrowser();
+
+
     }
 }

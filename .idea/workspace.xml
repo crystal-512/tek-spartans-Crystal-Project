@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="tests and pages added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" afterDir="false" />
+    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Create Account Scenario 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.CreateAccountTest.createNewAccountTestPositive.executor": "Run",
+    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail (1).executor": "Debug",
+    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail.executor": "Run",
+    "TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday.executor": "Run",
+    "TestNG.CreateAccountTest.executor": "Run",
+    "TestNG.CreateAccountTest.validateEmailOnSignUpPage.executor": "Run",
     "TestNG.HomePageTest.executor": "Run",
     "TestNG.HomePageTest.validateCreateAccountButton.executor": "Run",
+    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccount.executor": "Run",
     "TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor": "Run",
     "TestNG.HomePageTest.validateTopLeftCornerLogo.executor": "Run",
     "TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor": "Run",
@@ -58,7 +64,24 @@
       <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest.createNewAccountTestPositive">
+  <component name="RunManager" selected="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday">
+    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAccountTest.createNewAccountTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
@@ -77,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest.createNewAccountWithExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
         <pattern>
@@ -86,25 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.validateCreateAccountButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tek-spartans-Crystal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
-      <option name="METHOD_NAME" value="validateCreateAccountButton" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
+      <option name="METHOD_NAME" value="createNewAccountWithExistingEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.validateHomePageTitleAndCreateAccountButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest.createNewAccountWithUnderAgeBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
-      <option name="METHOD_NAME" value="validateHomePageTitleAndCreateAccountButton" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
+      <option name="METHOD_NAME" value="createNewAccountWithUnderAgeBirthday" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.validateTopLeftCornerPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest.validateEmailOnSignUpPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.HomePageTest" />
-      <option name="METHOD_NAME" value="validateTopLeftCornerPageTitle" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
+      <option name="METHOD_NAME" value="validateEmailOnSignUpPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
+        <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithExistingEmail" />
         <item itemvalue="TestNG.CreateAccountTest.createNewAccountTestPositive" />
-        <item itemvalue="TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton" />
-        <item itemvalue="TestNG.HomePageTest.validateCreateAccountButton" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.validateTopLeftCornerPageTitle" />
+        <item itemvalue="TestNG.CreateAccountTest" />
+        <item itemvalue="TestNG.CreateAccountTest.validateEmailOnSignUpPage" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +204,33 @@
       <option name="project" value="LOCAL" />
       <updated>1724853416145</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create Account Scenario 1">
+      <option name="closed" value="true" />
+      <created>1724859914231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724859914232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependencies Added" />
     <MESSAGE value="Configs Added" />
     <MESSAGE value="tests and pages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests and pages added" />
+    <MESSAGE value="Create Account Scenario 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Account Scenario 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tek/project/utility/SeleniumUtility.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
