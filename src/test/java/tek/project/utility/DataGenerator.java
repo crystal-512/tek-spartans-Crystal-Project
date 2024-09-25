@@ -13,4 +13,11 @@ public class DataGenerator {
         LOGGER.debug("Generated random email {}", email);
         return email;
     }
+
+    public static String generateRandomUserName(String prefix) {
+        int random = (int) (Math.random() * 100000);
+        String userName = prefix + random;
+        LOGGER.debug("Generated random username {}", userName);
+        return userName;
+    }
 }

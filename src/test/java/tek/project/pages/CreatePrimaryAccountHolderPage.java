@@ -44,8 +44,8 @@ public class CreatePrimaryAccountHolderPage extends SeleniumUtility {
     @FindBy(xpath = "//button[text() ='Create Account']")
     public WebElement createAccountButton;
 
-    @FindBy(xpath = "//div[text() ='Error']")
-    public WebElement emailError;
+    @FindBy(xpath = "//div[text()='ERROR']")
+    public WebElement dateOfBirthError;
 
 
     public void fillUpCreateAccountForm(

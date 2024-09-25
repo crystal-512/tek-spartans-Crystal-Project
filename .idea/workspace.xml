@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Create Account Scenario 1">
+    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="build added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/PrimaryAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +41,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.CreateAccountTest.createNewAccountTestPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.createNewAccountWithExistingEmail (1).executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.CreateAccountTest.createNewAccountWithExistingEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CreateAccountTest.validateEmailOnSignUpPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.validateCreateAccountButton.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.validateHomePageTitleAndCreateAccount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.validateTopLeftCornerLogo.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CreateAccountTest.createNewAccountTestPositive.executor": "Run",
+    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail (1).executor": "Debug",
+    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail.executor": "Run",
+    "TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday.executor": "Run",
+    "TestNG.CreateAccountTest.createValidAccount.executor": "Run",
+    "TestNG.CreateAccountTest.executor": "Run",
+    "TestNG.CreateAccountTest.validateEmailOnSignUpPage.executor": "Run",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.validateCreateAccountButton.executor": "Run",
+    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccount.executor": "Run",
+    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor": "Run",
+    "TestNG.HomePageTest.validateTopLeftCornerLogo.executor": "Run",
+    "TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor": "Run",
+    "TestNG.LoginTest.loginButtonIsEnabled.executor": "Run",
+    "TestNG.LoginTest.loginTestPositive.executor": "Run",
+    "TestNG.LoginTest.signInTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.tek-spartans-Crystal-Project [clean,test]">
+  <component name="RunManager" selected="TestNG.LoginTest.signInTest">
     <configuration name="tek-spartans-Crystal-Project [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -93,59 +105,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tek-spartans-Crystal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAccountTest.createNewAccountTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tek-spartans-Crystal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="createNewAccountTestPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAccountTest.createNewAccountWithExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tek-spartans-Crystal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="createNewAccountWithExistingEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CreateAccountTest.createNewAccountWithUnderAgeBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <shortenClasspath name="NONE" />
@@ -174,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTest.validateEmailOnSignUpPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAccountTest.createValidAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
         <pattern>
@@ -184,7 +143,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="tek.project.tests" />
       <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="validateEmailOnSignUpPage" />
+      <option name="METHOD_NAME" value="createValidAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginButtonIsEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginButtonIsEnabled" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTestPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.signInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.LoginTest" />
+      <option name="METHOD_NAME" value="signInTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,19 +207,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.tek-spartans-Crystal-Project [clean,test]" />
-      <item itemvalue="TestNG.CreateAccountTest" />
-      <item itemvalue="TestNG.CreateAccountTest.createNewAccountTestPositive" />
-      <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithExistingEmail" />
+      <item itemvalue="TestNG.CreateAccountTest.createValidAccount" />
+      <item itemvalue="TestNG.LoginTest.loginButtonIsEnabled" />
+      <item itemvalue="TestNG.LoginTest.loginTestPositive" />
+      <item itemvalue="TestNG.LoginTest.signInTest" />
       <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
-      <item itemvalue="TestNG.CreateAccountTest.validateEmailOnSignUpPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.signInTest" />
+        <item itemvalue="TestNG.LoginTest.loginTestPositive" />
+        <item itemvalue="TestNG.LoginTest.loginButtonIsEnabled" />
+        <item itemvalue="TestNG.CreateAccountTest.createValidAccount" />
         <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
-        <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithExistingEmail" />
-        <item itemvalue="TestNG.CreateAccountTest.createNewAccountTestPositive" />
-        <item itemvalue="TestNG.CreateAccountTest" />
-        <item itemvalue="TestNG.CreateAccountTest.validateEmailOnSignUpPage" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724859914232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build added">
+      <option name="closed" value="true" />
+      <created>1727227444119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727227444119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,16 +287,16 @@
     <MESSAGE value="Configs Added" />
     <MESSAGE value="tests and pages added" />
     <MESSAGE value="Create Account Scenario 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Account Scenario 1" />
+    <MESSAGE value="build added" />
+    <option name="LAST_COMMIT_MESSAGE" value="build added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tek/project/utility/SeleniumUtility.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

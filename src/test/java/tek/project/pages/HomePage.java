@@ -16,4 +16,7 @@ public class HomePage extends SeleniumUtility {
 
     @FindBy( linkText = "Create Primary Account")
     public WebElement createPrimaryAccountButton;
+
+    @FindBy( xpath = "//a[text()='Login']")
+    public WebElement loginButton;
 }

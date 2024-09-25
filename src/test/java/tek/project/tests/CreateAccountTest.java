@@ -1,16 +1,10 @@
 package tek.project.tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tek.project.base.UIBaseClass;
-import tek.project.pages.CreatePrimaryAccountHolderPage;
-import tek.project.pages.SignUpPage;
 import tek.project.utility.DataGenerator;
-
-import java.util.*;
 
 public class CreateAccountTest extends UIBaseClass {
 
@@ -37,6 +31,8 @@ public class CreateAccountTest extends UIBaseClass {
 
         Select martialStatusSelect = new Select(createPrimaryAccountHolderPage.maritalStatusInput);
         martialStatusSelect.selectByIndex(2);
+
+        clickOnElement(createPrimaryAccountHolderPage.createAccountButton);
 
 
     }
@@ -76,7 +72,7 @@ public class CreateAccountTest extends UIBaseClass {
 
         createPrimaryAccountHolderPage.fillUpCreateAccountForm(
                 expectedEmail, "Crystal", "Denekas",
-                "employed", "05/03/2000");
+                "employed", "05/03/2015");
         Select titlPrefixSelect = new Select(createPrimaryAccountHolderPage.titlePrefixOption);
         titlPrefixSelect.selectByIndex(3);
 
@@ -85,6 +81,42 @@ public class CreateAccountTest extends UIBaseClass {
 
         Select martialStatusSelect = new Select(createPrimaryAccountHolderPage.maritalStatusInput);
         martialStatusSelect.selectByIndex(2);
+
+        clickOnElement(createPrimaryAccountHolderPage.createAccountButton);
+
+        String actualDateOfBirthError = getElementText(createPrimaryAccountHolderPage.dateOfBirthError);
+        Assert.assertEquals(actualDateOfBirthError, "ERROR",
+                "you must be 18 years or older to create account");
+
+
+    }
+
+    @Test
+    public void createValidAccount() {
+        clickOnElement(homePage.createPrimaryAccountButton);
+        validateCreateAccountPageTitle();
+
+        String expectedEmail = DataGenerator.generateRandomEmail("crystal");
+
+
+        createPrimaryAccountHolderPage.fillUpCreateAccountForm(
+                expectedEmail, "Crystal", "Denekas",
+                "employed", "03/24/1992");
+        Select titlPrefixSelect = new Select(createPrimaryAccountHolderPage.titlePrefixOption);
+        titlPrefixSelect.selectByIndex(3);
+
+        Select genderSelect = new Select(createPrimaryAccountHolderPage.genderInput);
+        genderSelect.selectByIndex(2);
+
+        Select martialStatusSelect = new Select(createPrimaryAccountHolderPage.maritalStatusInput);
+        martialStatusSelect.selectByIndex(2);
+
+        clickOnElement(createPrimaryAccountHolderPage.createAccountButton);
+
+        String expectedUsername = DataGenerator.generateRandomUserName("crystal");
+        signInPage.logIn(expectedUsername, "Password@123", "Password@123");
+
+        clickOnElement(signInPage.submitButton);
 
 
     }

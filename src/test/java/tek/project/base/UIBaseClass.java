@@ -4,9 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import tek.project.pages.HomePage;
-import tek.project.pages.CreatePrimaryAccountHolderPage;
-import tek.project.pages.SignUpPage;
+import tek.project.pages.*;
 import tek.project.utility.SeleniumUtility;
 
 public class UIBaseClass extends SeleniumUtility {
@@ -15,7 +13,9 @@ public class UIBaseClass extends SeleniumUtility {
 
     public HomePage homePage;
     public CreatePrimaryAccountHolderPage createPrimaryAccountHolderPage;
-    public SignUpPage signUpPage;
+    public SignInPage signInPage;
+    public PrimaryAccountPage primaryAccountPage;
+    public LoginPage loginPage;
 
 
     @BeforeMethod
@@ -24,7 +24,8 @@ public class UIBaseClass extends SeleniumUtility {
         setupBrowser();
         homePage = new HomePage();
         createPrimaryAccountHolderPage = new CreatePrimaryAccountHolderPage();
-        signUpPage = new SignUpPage();
+        signInPage = new SignInPage();
+        primaryAccountPage = new PrimaryAccountPage();
 
     }
 
