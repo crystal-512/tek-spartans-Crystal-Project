@@ -76,7 +76,7 @@ public class CreateAccountTest extends UIBaseClass {
 
         createPrimaryAccountHolderPage.fillUpCreateAccountForm(
                 expectedEmail, "Crystal", "Denekas",
-                "employed", "05/03/2024");
+                "employed", "05/03/2000");
         Select titlPrefixSelect = new Select(createPrimaryAccountHolderPage.titlePrefixOption);
         titlPrefixSelect.selectByIndex(3);
 

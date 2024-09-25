@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="Create Account Scenario 1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,35 +33,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.CreateAccountTest.createNewAccountTestPositive.executor": "Run",
-    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail (1).executor": "Debug",
-    "TestNG.CreateAccountTest.createNewAccountWithExistingEmail.executor": "Run",
-    "TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday.executor": "Run",
-    "TestNG.CreateAccountTest.executor": "Run",
-    "TestNG.CreateAccountTest.validateEmailOnSignUpPage.executor": "Run",
-    "TestNG.HomePageTest.executor": "Run",
-    "TestNG.HomePageTest.validateCreateAccountButton.executor": "Run",
-    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccount.executor": "Run",
-    "TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor": "Run",
-    "TestNG.HomePageTest.validateTopLeftCornerLogo.executor": "Run",
-    "TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.CreateAccountTest.createNewAccountTestPositive.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.createNewAccountWithExistingEmail (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.CreateAccountTest.createNewAccountWithExistingEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAccountTest.validateEmailOnSignUpPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.validateCreateAccountButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.validateHomePageTitleAndCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.validateHomePageTitleAndCreateAccountButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.validateTopLeftCornerLogo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.validateTopLeftCornerPageTitle.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday">
+  <component name="RunManager" selected="Maven.tek-spartans-Crystal-Project [clean,test]">
+    <configuration name="tek-spartans-Crystal-Project [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="CreateAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
       <extension name="coverage">
@@ -120,16 +148,26 @@
     </configuration>
     <configuration name="CreateAccountTest.createNewAccountWithUnderAgeBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tek.project.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tek.project.tests" />
       <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
       <option name="METHOD_NAME" value="createNewAccountWithUnderAgeBirthday" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,6 +192,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.tek-spartans-Crystal-Project [clean,test]" />
+      <item itemvalue="TestNG.CreateAccountTest" />
+      <item itemvalue="TestNG.CreateAccountTest.createNewAccountTestPositive" />
+      <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithExistingEmail" />
+      <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
+      <item itemvalue="TestNG.CreateAccountTest.validateEmailOnSignUpPage" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
