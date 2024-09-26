@@ -3,6 +3,11 @@
     <test name="Regression Tests ">
         <classes>
             <class name="tek.project.tests.HomePageTest" />
+            <class name="tek.project.tests.CreateAccountTest" />
+            <class name="tek.project.tests.AccountsTest" />
+            <class name="tek.project.tests.LoginTest" />
+            <class name="tek.project.tests.PlansTest" />
+            <class name="tek.project.tests.UserProfileTest" />
         </classes>
     </test>
     <test name="Smoke Tests">

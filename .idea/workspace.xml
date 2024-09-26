@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="build added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/PrimaryAccountPage.java" afterDir="false" />
+    <list default="true" id="f50939a3-057c-471a-a069-f6eed23632da" name="Changes" comment="added congif">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/CustomerServicePortalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/qa.config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/BaseSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/base/UIBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/CreatePrimaryAccountHolderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/utility/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tek/project/tests/UserProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tek/project/tests/UserProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/dev-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/dev-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runners/oneTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/oneTestRunner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -61,6 +63,7 @@
     "TestNG.LoginTest.loginButtonIsEnabled.executor": "Run",
     "TestNG.LoginTest.loginTestPositive.executor": "Run",
     "TestNG.LoginTest.signInTest.executor": "Run",
+    "TestNG.UserProfileTest.signInTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -73,7 +76,7 @@
       <recent name="C:\Users\cryst\OneDrive\Desktop\Spartans\tek-spartans-Crystal-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.signInTest">
+  <component name="RunManager" selected="TestNG.C:/Users/cryst/OneDrive/Desktop/Spartans/tek-spartans-Crystal-Project/src/test/resources/runners/oneTestRunner.xml">
     <configuration name="tek-spartans-Crystal-Project [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -105,46 +108,10 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CreateAccountTest.createNewAccountWithUnderAgeBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/cryst/OneDrive/Desktop/Spartans/tek-spartans-Crystal-Project/src/test/resources/runners/oneTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tek-spartans-Crystal-Project" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="createNewAccountWithUnderAgeBirthday" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAccountTest.createValidAccount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tek-spartans-Crystal-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tek.project.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tek.project.tests" />
-      <option name="MAIN_CLASS_NAME" value="tek.project.tests.CreateAccountTest" />
-      <option name="METHOD_NAME" value="createValidAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runners/oneTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -205,21 +172,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserProfileTest.signInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tek-spartans-Crystal-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tek.project.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tek.project.tests" />
+      <option name="MAIN_CLASS_NAME" value="tek.project.tests.UserProfileTest" />
+      <option name="METHOD_NAME" value="signInTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.tek-spartans-Crystal-Project [clean,test]" />
-      <item itemvalue="TestNG.CreateAccountTest.createValidAccount" />
+      <item itemvalue="TestNG.C:/Users/cryst/OneDrive/Desktop/Spartans/tek-spartans-Crystal-Project/src/test/resources/runners/oneTestRunner.xml" />
+      <item itemvalue="TestNG.UserProfileTest.signInTest" />
       <item itemvalue="TestNG.LoginTest.loginButtonIsEnabled" />
       <item itemvalue="TestNG.LoginTest.loginTestPositive" />
       <item itemvalue="TestNG.LoginTest.signInTest" />
-      <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/cryst/OneDrive/Desktop/Spartans/tek-spartans-Crystal-Project/src/test/resources/runners/oneTestRunner.xml" />
+        <item itemvalue="TestNG.UserProfileTest.signInTest" />
         <item itemvalue="TestNG.LoginTest.signInTest" />
         <item itemvalue="TestNG.LoginTest.loginTestPositive" />
         <item itemvalue="TestNG.LoginTest.loginButtonIsEnabled" />
-        <item itemvalue="TestNG.CreateAccountTest.createValidAccount" />
-        <item itemvalue="TestNG.CreateAccountTest.createNewAccountWithUnderAgeBirthday" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727227444119</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="build added">
+      <option name="closed" value="true" />
+      <created>1727239438668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727239438668</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,7 +281,8 @@
     <MESSAGE value="tests and pages added" />
     <MESSAGE value="Create Account Scenario 1" />
     <MESSAGE value="build added" />
-    <option name="LAST_COMMIT_MESSAGE" value="build added" />
+    <MESSAGE value="added congif" />
+    <option name="LAST_COMMIT_MESSAGE" value="added congif" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

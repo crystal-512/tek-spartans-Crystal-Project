@@ -15,7 +15,7 @@ public class UIBaseClass extends SeleniumUtility {
     public CreatePrimaryAccountHolderPage createPrimaryAccountHolderPage;
     public SignInPage signInPage;
     public PrimaryAccountPage primaryAccountPage;
-    public LoginPage loginPage;
+    public CustomerServicePortalPage customerServicePortalPage;
 
 
     @BeforeMethod
@@ -26,6 +26,7 @@ public class UIBaseClass extends SeleniumUtility {
         createPrimaryAccountHolderPage = new CreatePrimaryAccountHolderPage();
         signInPage = new SignInPage();
         primaryAccountPage = new PrimaryAccountPage();
+        customerServicePortalPage = new CustomerServicePortalPage();
 
     }
 
